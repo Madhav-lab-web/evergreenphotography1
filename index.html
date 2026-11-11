@@ -1,1 +1,109 @@
-index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evergreen Photography | Moments Forever</title>
+<meta name="description" content="Evergreen Photography – capturing weddings, people, railways, nature and beautiful moments.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,serif;background:#faf8f3;color:#292820;line-height:1.6}
+header{background:#18251e;color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:25px;letter-spacing:2px}
+.logo span{color:#d5b77a}
+nav a{color:white;text-decoration:none;margin-left:22px;font:14px Arial,sans-serif}
+nav a:hover{color:#d5b77a}
+.hero{min-height:75vh;background:linear-gradient(#0007,#0008),url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1800') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:40px 20px}
+.hero h1{font-size:clamp(42px,7vw,76px);font-weight:normal}
+.hero p{font:16px Arial,sans-serif;letter-spacing:3px;margin:18px 0 30px}
+.btn{display:inline-block;border:1px solid #d5b77a;color:white;padding:12px 27px;text-decoration:none;font:13px Arial,sans-serif;letter-spacing:2px}
+.btn:hover{background:#d5b77a;color:#18251e}
+section{padding:75px 7%}
+.heading{text-align:center;margin-bottom:38px}
+.heading small{color:#a5864d;letter-spacing:3px;font:12px Arial,sans-serif}
+.heading h2{font-size:36px;font-weight:normal;margin-top:8px}
+.intro{max-width:760px;margin:auto;text-align:center;color:#666;font:16px/1.9 Arial,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.photo{position:relative;overflow:hidden;background:#ddd;min-height:260px}
+.photo img{width:100%;height:300px;object-fit:cover;display:block;transition:transform .5s}
+.photo:hover img{transform:scale(1.06)}
+.photo div{position:absolute;bottom:0;left:0;right:0;padding:35px 18px 16px;color:white;background:linear-gradient(transparent,#000b);font-size:21px}
+.dark{background:#18251e;color:white}
+.dark .intro{color:#ddd}
+.about-wrap{max-width:850px;margin:auto;text-align:center}
+.about-wrap p{font:16px/1.9 Arial,sans-serif;color:#ddd;margin-top:20px}
+.categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px;margin-top:35px}
+.category{border:1px solid #b69a68;padding:25px;text-align:center}
+.category h3{font-weight:normal;color:#d5b77a;font-size:21px}
+footer{background:#101a14;color:#ccc;text-align:center;padding:30px 15px;font:13px Arial,sans-serif}
+footer strong{color:#d5b77a}
+@media(max-width:600px){header{justify-content:center;text-align:center}nav a{margin:0 8px;font-size:12px}.hero{min-height:65vh}section{padding:55px 6%}.heading h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">EVERGREEN <span>PHOTOGRAPHY</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+<div>
+<p>EVERY MOMENT HAS A STORY</p>
+<h1>Evergreen Photography</h1>
+<p>CAPTURING MOMENTS · CREATING MEMORIES</p>
+<a class="btn" href="#gallery">EXPLORE GALLERY</a>
+</div>
+</div>
+
+<section id="about">
+<div class="heading"><small>WELCOME</small><h2>Stories Through My Lens</h2></div>
+<div class="intro">Welcome to Evergreen Photography. A personal photography portfolio celebrating beautiful moments, meaningful stories and the world around us — from weddings and celebrations to railways and nature.</div>
+</section>
+
+<section id="gallery">
+<div class="heading"><small>MY PHOTOGRAPHY</small><h2>Selected Gallery</h2></div>
+<div class="gallery">
+<div class="photo"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800" alt="Wedding celebration"><div>Wedding Stories</div></div>
+<div class="photo"><img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800" alt="Wedding couple"><div>People & Moments</div></div>
+<div class="photo"><img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800" alt="Train on railway"><div>Railway Photography</div></div>
+<div class="photo"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800" alt="Mountain landscape"><div>Nature & Landscapes</div></div>
+<div class="photo"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800" alt="Event lights"><div>Events & Celebrations</div></div>
+<div class="photo"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Beautiful scenery"><div>Everyday Stories</div></div>
+</div>
+</section>
+
+<section class="dark">
+<div class="about-wrap">
+<div class="heading"><small>THE VISION</small><h2>Every Frame Tells a Story</h2></div>
+<p>Photography is more than taking pictures. It is about noticing details, preserving emotions and remembering the little moments that make life special. Evergreen Photography is my journey of learning, exploring and sharing stories through a camera lens.</p>
+<div class="categories">
+<div class="category"><h3>Weddings</h3><p>Love and celebrations</p></div>
+<div class="category"><h3>Railways</h3><p>Trains and journeys</p></div>
+<div class="category"><h3>Nature</h3><p>Beauty in the world</p></div>
+<div class="category"><h3>Events</h3><p>People and memories</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="heading"><small>THANK YOU FOR VISITING</small><h2>Let's Preserve Beautiful Moments</h2></div>
+<div class="intro">Thank you for exploring Evergreen Photography. More photographs and stories will be added as my photography journey grows.</div>
+</section>
+</main>
+
+<footer id="contact">
+<p><strong>EVERGREEN PHOTOGRAPHY</strong></p>
+<p>Capturing Moments · Creating Memories</p>
+<p>© 2026 Evergreen Photography</p>
+</footer>
+</body>
+</html>
+
